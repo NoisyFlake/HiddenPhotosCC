@@ -1,6 +1,6 @@
 Package: com.noisyflake.hiddenphotoscc
 Name: HiddenPhotosCC
-Depends: mobilesubstrate, com.opa334.ccsupport
+Depends: mobilesubstrate, firmware (>= 14.0), com.opa334.ccsupport
 Version: 1.0.0
 Architecture: iphoneos-arm
 Description: Hidden Photos Control Center module

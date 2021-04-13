@@ -5,11 +5,11 @@ NSUserDefaults *preferences;
 @implementation HiddenPhotosCC
 
 - (UIImage *)iconGlyph {
-	return [UIImage imageNamed:@"Icon" inBundle:[NSBundle bundleForClass:[self class]] compatibleWithTraitCollection:nil];
+  return [UIImage imageNamed:@"Icon" inBundle:[NSBundle bundleForClass:[self class]] compatibleWithTraitCollection:nil];
 }
 
 - (UIColor *)selectedColor {
-	return [UIColor systemRedColor];
+  return [UIColor systemRedColor];
 }
 
 - (BOOL)isSelected {
